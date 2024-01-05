@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family=Open+Sans&display=swap");
 body {
-background-image: url("/new\ background.png");
+background-image: url("./new\ background.png");
 display: grid;
 place-items: center;
 height: 100vh;
