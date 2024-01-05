@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2? family=Open+Sans&display=swap");
+body {
+background-image: url("/new\ background.png");
+display: grid;
+place-items: center;
+height: 100vh;
+margin: 0;
+font-family: "Open Sans", sans-serif;
+color: #fff;
+}
+.card {
+background: #fff;
+border-radius: 40px;
+height: 93vh;
+width: 75vw;
+box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.2);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+.card {
+flex-direction: row-reverse;
+}
+.card img.birthday {
+width: 90%;
+max-width: 30vw;
+max-height: unset;
+ }
+}
+
+@media only screen and (max-height: 640px) {
+.card {
+flex-direction: row-reverse;
+}
+.card img.birthday {
+width: 90%;
+max-width: 30vw;
+max-height: unset;
+     }
+}
+
+img.birthday {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  max-height: 40vh;
+  border-radius: 20px;
+}
+
+.text {
+margin: 10px;
+border-radius: 40px;
+box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+padding: 1em;
+color: #ffffff;
+background: #47799f;
+}
+
+.muted {
+opacity: 0.8;
+}
+.space {
+height: 100px;
+}
+
+
